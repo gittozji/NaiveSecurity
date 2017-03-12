@@ -10,8 +10,6 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import java.io.*;
 import java.security.MessageDigest;
-import java.security.SecureRandom;
-import java.util.Collections;
 
 /**
  * 加密解密服务
@@ -20,19 +18,17 @@ import java.util.Collections;
 public class SecurityServiceImpl implements SecurityService {
     public static void main(String[] args) throws Exception {
         {
-            String souorcePath = "D:/Git/GitProjects/NaiveSecurity/xxxxxxxx.pdf";
-            String targetPath = "D:/Git/GitProjects/NaiveSecurity/xxxxxxxxout.pdf";
+            String souorcePath = "D:/Git/GitProjects/NaiveSecurity/origin.txt";
+            String targetPath = "D:/Git/GitProjects/NaiveSecurity/en.txt";
             SecurityService securityService = new SecurityServiceImpl();
-            securityService.encryptFile(souorcePath, targetPath, "12345678abcdefg");
-            System.out.println("successful1111111111");
+            securityService.encryptFile(souorcePath, targetPath, "12345678");
         }
 
         {
-            String souorcePath = "D:/Git/GitProjects/NaiveSecurity/xxxxxxxxout.pdf";
-            String targetPath = "D:/Git/GitProjects/NaiveSecurity/xxxxxxxxen.pdf";
+            String souorcePath = "D:/Git/GitProjects/NaiveSecurity/en.txt";
+            String targetPath = "D:/Git/GitProjects/NaiveSecurity/de.txt";
             SecurityService securityService = new SecurityServiceImpl();
-            securityService.decryptFile(souorcePath, targetPath, "12345678abcdefg");
-            System.out.println("successful222222222222");
+            securityService.decryptFile(souorcePath, targetPath, "12345678");
         }
 
 
@@ -62,11 +58,15 @@ public class SecurityServiceImpl implements SecurityService {
             }
             doFinal(Cipher.ENCRYPT_MODE, inPath, outPath + ".temp", key1);  // 一次加密
             doFinal(Cipher.ENCRYPT_MODE, outPath + ".temp", outPath, key2); // 二次加密
-            File temp = new File(outPath + ".temp");
-            temp.delete();
             return true;
         } catch (Exception e) {
-
+            File temp = new File(outPath + ".temp");
+            temp.delete();
+            temp = new File(outPath);
+            temp.delete();
+        } finally {
+            File temp = new File(outPath + ".temp");
+            temp.delete();
         }
         return false;
     }
@@ -95,11 +95,15 @@ public class SecurityServiceImpl implements SecurityService {
             }
             doFinal(Cipher.DECRYPT_MODE, inPath, outPath + ".temp", key1);  // 一次解密
             doFinal(Cipher.DECRYPT_MODE, outPath + ".temp", outPath, key2); // 二次解密
-            File temp = new File(outPath + ".temp");
-            temp.delete();
             return true;
         } catch (Exception e) {
-
+            File temp = new File(outPath + ".temp");
+            temp.delete();
+            temp = new File(outPath);
+            temp.delete();
+        } finally {
+            File temp = new File(outPath + ".temp");
+            temp.delete();
         }
         return false;
     }
