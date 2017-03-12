@@ -1,7 +1,5 @@
 package me.zji.utils;
 
-import sun.misc.BASE64Encoder;
-import sun.security.krb5.internal.crypto.Des;
 
 import javax.crypto.*;
 import javax.crypto.spec.DESKeySpec;
@@ -21,6 +19,7 @@ public class DesUtil {
 
     public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException {
         try {
+            byte[] b4 = getKey("423423424432");
             String a = new String(encrypt("jlsakf的临时发卡机", "345353245"),ENCODING);
             String b = new String(decrypt(a, "345353245"),ENCODING);
             System.out.println(b);
@@ -30,7 +29,7 @@ public class DesUtil {
 
     }
 
-    public static byte[] encrypt(String data, String password) throws NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, InvalidKeyException, InvalidKeySpecException, BadPaddingException, IllegalBlockSizeException {
+    public static byte[] encrypt(String data, String password) throws Exception {
         Cipher Cipher1 = Cipher.getInstance("DES");
         Cipher Cipher2 = Cipher.getInstance("DES");
         SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("DES");
@@ -50,7 +49,7 @@ public class DesUtil {
         return enBytes;
     }
 
-    public static byte[] decrypt(String data, String password) throws NoSuchPaddingException, NoSuchAlgorithmException, UnsupportedEncodingException, InvalidKeyException, InvalidKeySpecException, BadPaddingException, IllegalBlockSizeException {
+    public static byte[] decrypt(String data, String password) throws Exception {
         Cipher Cipher1 = Cipher.getInstance("DES");
         Cipher Cipher2 = Cipher.getInstance("DES");
         SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("DES");
@@ -70,10 +69,9 @@ public class DesUtil {
         return deBytes;
     }
 
-    private static byte[] getKey(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+    private static byte[] getKey(String password) throws Exception {
         MessageDigest md5 = MessageDigest.getInstance("MD5");
-        BASE64Encoder base64en = new BASE64Encoder();
-        byte[] bytes = md5.digest(password.getBytes("UTF-8"));
+        byte[] bytes = md5.digest(password.getBytes());
         return bytes;
     }
 }
