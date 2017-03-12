@@ -1,0 +1,1 @@
+createobject("wscript.shell").run "D:\Git\GitProjects\NaiveSecurity\META-INF\NaiveSecurity.bat",0
