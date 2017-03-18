@@ -143,13 +143,19 @@ public class SecurityServiceImpl implements SecurityService {
      * @return 64 位编码格式的字符串
      * @throws Exception
      */
-    public String doFinal(int mode, String data64, byte[] secretKey) throws Exception {
-        Cipher cipher = Cipher.getInstance("DES");
-        SecretKey finalKey = SecretKeyFactory.getInstance("DES").generateSecret(new DESKeySpec(secretKey));
-        cipher.init(mode, finalKey);
+    public String doFinal(int mode, String data64, String secretKey) {
+        try {
+            byte[] key = getSecretKey(secretKey);
+            Cipher cipher = Cipher.getInstance("DES");
+            SecretKey finalKey = SecretKeyFactory.getInstance("DES").generateSecret(new DESKeySpec(key));
+            cipher.init(mode, finalKey);
 
-        byte[] result = cipher.doFinal(Base64.decode(data64));
-        return Base64.encode(result);
+            byte[] result = cipher.doFinal(Base64.decode(data64));
+            return Base64.encode(result);
+        } catch (Exception e) {
+            return "加密内部算法出错！！！";
+        }
+
     }
 
     /**

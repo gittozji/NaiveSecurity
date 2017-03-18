@@ -31,5 +31,5 @@ public interface SecurityService {
      * @return 64 位编码格式的字符串
      * @throws Exception
      */
-    String doFinal(int mode, String data64, byte[] secretKey) throws Exception;
+    String doFinal(int mode, String data64, String secretKey) throws Exception;
 }
