@@ -7,12 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="310d9670-3989-48a9-ac6a-d63f4d6d77f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/NaiveSecurity.jar" afterPath="$PROJECT_DIR$/META-INF/NaiveSecurity.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/NaiveSecurity_jar/NaiveSecurity.jar" afterPath="$PROJECT_DIR$/out/artifacts/NaiveSecurity_jar/NaiveSecurity.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/DecryptNameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/DecryptNameWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/DecryptNameWindow.class" afterPath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/DecryptNameWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/EncryptNameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/NaiveSecurity/me/zji/main/EncryptNameWindow$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java" afterPath="$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/zji/service/SecurityService.java" afterPath="$PROJECT_DIR$/src/me/zji/service/SecurityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java" afterPath="$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java" afterPath="$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java" />
     </list>
     <ignored path="NaiveSecurity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,12 +35,12 @@
     <favorites_list name="NaiveSecurity" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NaiveSecurityInlet.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NaiveSecurityInlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.32135308">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -49,25 +50,21 @@
         <entry file="file://$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="83" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="83" />
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1956#3059#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptNameWindow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EncryptNameWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43763214">
-              <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="107" selection-start-line="78" selection-start-column="107" selection-end-line="78" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1956#3085#0" expanded="true" />
-                <element signature="e#3084#3085#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/me/zji/service/SecurityService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -87,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +127,8 @@
         <option value="$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/me/zji/service/SecurityService.java" />
         <option value="$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java" />
-        <option value="$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java" />
         <option value="$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java" />
+        <option value="$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java" />
       </list>
     </option>
   </component>
@@ -171,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -262,7 +260,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -273,6 +270,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.NaiveSecurityInlet">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -790,12 +789,13 @@
       <workItem from="1489244085051" duration="8133000" />
       <workItem from="1489281918831" duration="34230000" />
       <workItem from="1489368297708" duration="530000" />
-      <workItem from="1489816100991" duration="4728000" />
+      <workItem from="1489816100991" duration="6367000" />
+      <workItem from="1489836482806" duration="397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47621000" />
+    <option name="totallyTimeSpent" value="49657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +885,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -894,6 +894,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="75" selection-start-line="79" selection-start-column="75" selection-end-line="79" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/zji/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/zji/service/SecurityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -982,10 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38728324">
           <caret line="575" column="35" selection-start-line="575" selection-start-column="35" selection-end-line="575" selection-end-column="35" />
-          <folding>
-            <element signature="e#19904#19905#0" expanded="false" />
-            <element signature="e#19959#19960#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,53 +1125,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/zji/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_67/src.zip!/com/sun/org/apache/xerces/internal/impl/dv/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/zji/service/impl/SecurityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/zji/service/SecurityService.java">
+    <entry file="file://$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
+          <caret line="78" column="107" selection-start-line="78" selection-start-column="107" selection-end-line="78" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/zji/main/DecryptNameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="83" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="83" />
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1956#3059#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/zji/main/NaiveSecurityInlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.32135308">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/zji/main/EncryptNameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43763214">
-          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1956#3085#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -77,6 +77,7 @@ public class DecryptNameWindow extends JFrame {
                     label4.setText("正在解密...");
                     try {
                         result = securityService.doFinal(Cipher.DECRYPT_MODE, text1, text3);
+                        result = new String(Base64.decode(result));
                     } catch (Exception exception) {
                         result = "解密内部算法出错！！！";
                     }
